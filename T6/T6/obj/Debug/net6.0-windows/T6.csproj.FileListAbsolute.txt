@@ -1,0 +1,17 @@
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\bin\Debug\net6.0-windows\T6.exe
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\bin\Debug\net6.0-windows\T6.deps.json
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\bin\Debug\net6.0-windows\T6.runtimeconfig.json
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\bin\Debug\net6.0-windows\T6.dll
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\bin\Debug\net6.0-windows\T6.pdb
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\obj\Debug\net6.0-windows\T6.csproj.AssemblyReference.cache
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\obj\Debug\net6.0-windows\T6.Form1.resources
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\obj\Debug\net6.0-windows\T6.csproj.GenerateResource.cache
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\obj\Debug\net6.0-windows\T6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\obj\Debug\net6.0-windows\T6.AssemblyInfoInputs.cache
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\obj\Debug\net6.0-windows\T6.AssemblyInfo.cs
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\obj\Debug\net6.0-windows\T6.csproj.CoreCompileInputs.cache
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\obj\Debug\net6.0-windows\T6.dll
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\obj\Debug\net6.0-windows\refint\T6.dll
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\obj\Debug\net6.0-windows\T6.pdb
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\obj\Debug\net6.0-windows\T6.genruntimeconfig.cache
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\T6\T6\obj\Debug\net6.0-windows\ref\T6.dll

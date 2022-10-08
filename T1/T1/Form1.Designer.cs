@@ -28,36 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.OtsikkoLB = new System.Windows.Forms.Label();
-            this.VaihdaBT = new System.Windows.Forms.Button();
+            this.TextLB = new System.Windows.Forms.Label();
+            this.ChangeBT = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // OtsikkoLB
+            // TextLB
             // 
-            this.OtsikkoLB.AutoSize = true;
-            this.OtsikkoLB.Location = new System.Drawing.Point(45, 23);
-            this.OtsikkoLB.Name = "OtsikkoLB";
-            this.OtsikkoLB.Size = new System.Drawing.Size(47, 15);
-            this.OtsikkoLB.TabIndex = 0;
-            this.OtsikkoLB.Text = "Otsikko";
+            this.TextLB.AutoSize = true;
+            this.TextLB.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TextLB.Location = new System.Drawing.Point(45, 23);
+            this.TextLB.Name = "TextLB";
+            this.TextLB.Size = new System.Drawing.Size(46, 26);
+            this.TextLB.TabIndex = 0;
+            this.TextLB.Text = "Text";
             // 
-            // VaihdaBT
+            // ChangeBT
             // 
-            this.VaihdaBT.Location = new System.Drawing.Point(45, 55);
-            this.VaihdaBT.Name = "VaihdaBT";
-            this.VaihdaBT.Size = new System.Drawing.Size(73, 44);
-            this.VaihdaBT.TabIndex = 1;
-            this.VaihdaBT.Text = "Vaihda teksti";
-            this.VaihdaBT.UseVisualStyleBackColor = true;
-            this.VaihdaBT.Click += new System.EventHandler(this.VaihdaBT_Click);
+            this.ChangeBT.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.ChangeBT.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ChangeBT.Location = new System.Drawing.Point(47, 65);
+            this.ChangeBT.Name = "ChangeBT";
+            this.ChangeBT.Size = new System.Drawing.Size(119, 36);
+            this.ChangeBT.TabIndex = 1;
+            this.ChangeBT.Text = "Change Text";
+            this.ChangeBT.UseVisualStyleBackColor = true;
+            this.ChangeBT.Click += new System.EventHandler(this.ChangeBT_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(395, 238);
-            this.Controls.Add(this.VaihdaBT);
-            this.Controls.Add(this.OtsikkoLB);
+            this.Controls.Add(this.ChangeBT);
+            this.Controls.Add(this.TextLB);
             this.Name = "Form1";
             this.Text = "Harjoitus 1";
             this.ResumeLayout(false);
@@ -67,7 +70,7 @@
 
         #endregion
 
-        private Label OtsikkoLB;
-        private Button VaihdaBT;
+        private Label TextLB;
+        private Button ChangeBT;
     }
 }

@@ -6,10 +6,10 @@ namespace T1
         {
             InitializeComponent();
         }
-
-        private void VaihdaBT_Click(object sender, EventArgs e)
+        
+        private void ChangeBT_Click(object sender, EventArgs e)
         {
-            OtsikkoLB.Text = "Heippa maailma";
+            TextLB.Text = "Hello World";
         }
     }
 }
