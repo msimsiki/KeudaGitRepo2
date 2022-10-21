@@ -1,2 +1,2 @@
 # KeudaGitRepo2
-C#
+Visual Studio 2022 Community Edition with Framework .Net 6.0
