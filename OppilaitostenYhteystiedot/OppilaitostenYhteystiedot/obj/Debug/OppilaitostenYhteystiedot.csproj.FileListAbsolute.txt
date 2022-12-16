@@ -1,0 +1,11 @@
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\OppilaitostenYhteystiedot\OppilaitostenYhteystiedot\bin\Debug\OppilaitostenYhteystiedot.exe.config
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\OppilaitostenYhteystiedot\OppilaitostenYhteystiedot\bin\Debug\OppilaitostenYhteystiedot.exe
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\OppilaitostenYhteystiedot\OppilaitostenYhteystiedot\bin\Debug\OppilaitostenYhteystiedot.pdb
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\OppilaitostenYhteystiedot\OppilaitostenYhteystiedot\obj\Debug\OppilaitostenYhteystiedot.csproj.AssemblyReference.cache
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\OppilaitostenYhteystiedot\OppilaitostenYhteystiedot\obj\Debug\OppilaitostenYhteystiedot.csproj.SuggestedBindingRedirects.cache
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\OppilaitostenYhteystiedot\OppilaitostenYhteystiedot\obj\Debug\OppilaitostenYhteystiedot.AvainhenkilotForm.resources
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\OppilaitostenYhteystiedot\OppilaitostenYhteystiedot\obj\Debug\OppilaitostenYhteystiedot.Properties.Resources.resources
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\OppilaitostenYhteystiedot\OppilaitostenYhteystiedot\obj\Debug\OppilaitostenYhteystiedot.csproj.GenerateResource.cache
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\OppilaitostenYhteystiedot\OppilaitostenYhteystiedot\obj\Debug\OppilaitostenYhteystiedot.csproj.CoreCompileInputs.cache
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\OppilaitostenYhteystiedot\OppilaitostenYhteystiedot\obj\Debug\OppilaitostenYhteystiedot.exe
+C:\Users\Simsiki\source\repos\KeudaGitRepo2\OppilaitostenYhteystiedot\OppilaitostenYhteystiedot\obj\Debug\OppilaitostenYhteystiedot.pdb
