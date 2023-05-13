@@ -7,17 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
+using System.Media;
 
 namespace T16
 {
     public partial class Form1 : Form
     {
-        private int alltime;
         public Form1()
         {
             InitializeComponent();
         }
 
+        private int alltime;
         private void Form1_Load(object sender, EventArgs e)
         {
             StopBT.Enabled = false;
@@ -26,17 +28,16 @@ namespace T16
                 MinsCB.Items.Add(i.ToString());
                 SecsCB.Items.Add(i.ToString());
             }
-            MinsCB.SelectedIndex = 0;
+            MinsCB.SelectedIndex = 1;
             SecsCB.SelectedIndex = 0;
         }
-
         private void StartBT_Click(object sender, EventArgs e)
         {
             StartBT.Enabled = false;
             StopBT.Enabled = true;
             int mins = int.Parse(MinsCB.SelectedItem.ToString());
             int secs = int.Parse(SecsCB.SelectedItem.ToString());
-            alltime = (mins * 60) + secs;
+            alltime = mins * 60 + secs;
             MsTM.Enabled = true;
         }
 
@@ -55,13 +56,12 @@ namespace T16
             {
                 alltime--;
                 int mins = alltime / 60;
-                int secs = alltime - (mins * 60);
-                tLB.Text = mins + ":" + secs;
+                int secs = alltime - mins * 60;
+                tLB.Text = mins.ToString() + ":" + secs.ToString();
             }
             else
             {
                 MsTM.Stop();
-                MessageBox.Show("Time has ended!");
             }
         }
     }

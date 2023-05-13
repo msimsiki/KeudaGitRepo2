@@ -1,3 +1,11 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+
 namespace T10
 {
     public partial class Form1 : Form
@@ -9,11 +17,11 @@ namespace T10
 
         private void CalculateBT_Click(object sender, EventArgs e)
         {
-            double weight = 0, height = 0;
+            double weight = 0, height = 0, bmi;
             weight = Convert.ToDouble(WeightTB.Text);
             height = Convert.ToDouble(HeightTB.Text);
-            double bmi = Math.Round(weight / (height * height), 2);
-            if (bmi < 18.5)
+            bmi = Math.Round(weight / ((height/100) * (height/100)), 2);
+            if (bmi <= 18.5)
             {
                 BmiLB.Text = "Weight index: " + bmi;
                 BmiLB.ForeColor = Color.Blue;
@@ -22,7 +30,7 @@ namespace T10
                 ResultLB.ForeColor = Color.Blue;
                 ResultLB.Visible = true;
             }
-            else if (bmi < 25)
+            else if (bmi <= 25)
             {
                 BmiLB.Text = "Weight index: " + bmi;
                 BmiLB.ForeColor = Color.Green;
@@ -31,7 +39,7 @@ namespace T10
                 ResultLB.ForeColor = Color.Green;
                 ResultLB.Visible = true;
             }
-            else if (bmi < 40)
+            else if (bmi <= 40)
             {
                 BmiLB.Text = "Weight index: " + bmi;
                 BmiLB.ForeColor = Color.Yellow;
@@ -49,7 +57,6 @@ namespace T10
                 ResultLB.ForeColor = Color.Red;
                 ResultLB.Visible = true;
             }
-
         }
     }
 }

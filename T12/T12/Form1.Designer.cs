@@ -28,105 +28,115 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dRB = new System.Windows.Forms.RadioButton();
-            this.cRB = new System.Windows.Forms.RadioButton();
-            this.bRB = new System.Windows.Forms.RadioButton();
-            this.aRB = new System.Windows.Forms.RadioButton();
-            this.qLB = new System.Windows.Forms.Label();
-            this.aLB = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            this.SuspendLayout();
+            groupBox1 = new GroupBox();
+            dRB = new RadioButton();
+            cRB = new RadioButton();
+            bRB = new RadioButton();
+            aRB = new RadioButton();
+            qLB = new Label();
+            aLB = new Label();
+            label1 = new Label();
+            groupBox1.SuspendLayout();
+            SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dRB);
-            this.groupBox1.Controls.Add(this.cRB);
-            this.groupBox1.Controls.Add(this.bRB);
-            this.groupBox1.Controls.Add(this.aRB);
-            this.groupBox1.Location = new System.Drawing.Point(12, 53);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(90, 190);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Options";
+            groupBox1.Controls.Add(dRB);
+            groupBox1.Controls.Add(cRB);
+            groupBox1.Controls.Add(bRB);
+            groupBox1.Controls.Add(aRB);
+            groupBox1.Location = new Point(12, 150);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(90, 190);
+            groupBox1.TabIndex = 0;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Options";
             // 
             // dRB
             // 
-            this.dRB.AutoSize = true;
-            this.dRB.Location = new System.Drawing.Point(15, 145);
-            this.dRB.Name = "dRB";
-            this.dRB.Size = new System.Drawing.Size(40, 27);
-            this.dRB.TabIndex = 3;
-            this.dRB.Text = "D";
-            this.dRB.UseVisualStyleBackColor = true;
+            dRB.AutoSize = true;
+            dRB.Location = new Point(15, 145);
+            dRB.Name = "dRB";
+            dRB.Size = new Size(40, 27);
+            dRB.TabIndex = 3;
+            dRB.Text = "D";
+            dRB.UseVisualStyleBackColor = true;
             // 
             // cRB
             // 
-            this.cRB.AutoSize = true;
-            this.cRB.Location = new System.Drawing.Point(15, 112);
-            this.cRB.Name = "cRB";
-            this.cRB.Size = new System.Drawing.Size(38, 27);
-            this.cRB.TabIndex = 2;
-            this.cRB.Text = "C";
-            this.cRB.UseVisualStyleBackColor = true;
+            cRB.AutoSize = true;
+            cRB.Location = new Point(15, 112);
+            cRB.Name = "cRB";
+            cRB.Size = new Size(38, 27);
+            cRB.TabIndex = 2;
+            cRB.Text = "C";
+            cRB.UseVisualStyleBackColor = true;
             // 
             // bRB
             // 
-            this.bRB.AutoSize = true;
-            this.bRB.Location = new System.Drawing.Point(15, 79);
-            this.bRB.Name = "bRB";
-            this.bRB.Size = new System.Drawing.Size(38, 27);
-            this.bRB.TabIndex = 1;
-            this.bRB.Text = "B";
-            this.bRB.UseVisualStyleBackColor = true;
+            bRB.AutoSize = true;
+            bRB.Location = new Point(15, 79);
+            bRB.Name = "bRB";
+            bRB.Size = new Size(38, 27);
+            bRB.TabIndex = 1;
+            bRB.Text = "B";
+            bRB.UseVisualStyleBackColor = true;
             // 
             // aRB
             // 
-            this.aRB.AutoSize = true;
-            this.aRB.Location = new System.Drawing.Point(15, 46);
-            this.aRB.Name = "aRB";
-            this.aRB.Size = new System.Drawing.Size(39, 27);
-            this.aRB.TabIndex = 0;
-            this.aRB.Text = "A";
-            this.aRB.UseVisualStyleBackColor = true;
+            aRB.AutoSize = true;
+            aRB.Location = new Point(15, 46);
+            aRB.Name = "aRB";
+            aRB.Size = new Size(39, 27);
+            aRB.TabIndex = 0;
+            aRB.Text = "A";
+            aRB.UseVisualStyleBackColor = true;
             // 
             // qLB
             // 
-            this.qLB.AutoSize = true;
-            this.qLB.Location = new System.Drawing.Point(12, 9);
-            this.qLB.Name = "qLB";
-            this.qLB.Size = new System.Drawing.Size(81, 23);
-            this.qLB.TabIndex = 1;
-            this.qLB.Text = "Question";
+            qLB.AutoSize = true;
+            qLB.Location = new Point(12, 106);
+            qLB.Name = "qLB";
+            qLB.Size = new Size(81, 23);
+            qLB.TabIndex = 1;
+            qLB.Text = "Question";
             // 
             // aLB
             // 
-            this.aLB.AutoSize = true;
-            this.aLB.Location = new System.Drawing.Point(12, 265);
-            this.aLB.Name = "aLB";
-            this.aLB.Size = new System.Drawing.Size(69, 23);
-            this.aLB.TabIndex = 2;
-            this.aLB.Text = "Answer";
-            this.aLB.Visible = false;
+            aLB.AutoSize = true;
+            aLB.Location = new Point(12, 362);
+            aLB.Name = "aLB";
+            aLB.Size = new Size(69, 23);
+            aLB.TabIndex = 2;
+            aLB.Text = "Answer";
+            aLB.Visible = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(12, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(160, 69);
+            label1.TabIndex = 3;
+            label1.Text = "No need questions\r\nJust click to options\r\n(Im lazy)";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(214, 307);
-            this.Controls.Add(this.aLB);
-            this.Controls.Add(this.qLB);
-            this.Controls.Add(this.groupBox1);
-            this.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
-            this.Text = "Harjoitus 12";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(10F, 23F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(214, 402);
+            Controls.Add(label1);
+            Controls.Add(aLB);
+            Controls.Add(qLB);
+            Controls.Add(groupBox1);
+            Font = new Font("Calibri", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            Margin = new Padding(4, 5, 4, 5);
+            Name = "Form1";
+            Text = "Harjoitus 12";
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -138,5 +148,6 @@
         private RadioButton aRB;
         private Label qLB;
         private Label aLB;
+        private Label label1;
     }
 }

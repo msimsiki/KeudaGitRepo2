@@ -28,224 +28,230 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.ResultLB = new System.Windows.Forms.Label();
-            this.LoanTB = new System.Windows.Forms.TextBox();
-            this.LiquidTB = new System.Windows.Forms.TextBox();
-            this.InsuranceTB = new System.Windows.Forms.TextBox();
-            this.OtherTB = new System.Windows.Forms.TextBox();
-            this.FuelTB = new System.Windows.Forms.TextBox();
-            this.WashTB = new System.Windows.Forms.TextBox();
-            this.MaintenanceTB = new System.Windows.Forms.TextBox();
-            this.TiresTB = new System.Windows.Forms.TextBox();
-            this.KmCB = new System.Windows.Forms.ComboBox();
-            this.SuspendLayout();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
+            label8 = new Label();
+            label9 = new Label();
+            ResultLB = new Label();
+            LoanTB = new TextBox();
+            LiquidTB = new TextBox();
+            InsuranceTB = new TextBox();
+            OtherTB = new TextBox();
+            FuelTB = new TextBox();
+            WashTB = new TextBox();
+            MaintenanceTB = new TextBox();
+            TiresTB = new TextBox();
+            KmCB = new ComboBox();
+            label10 = new Label();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Loan with interest";
+            label1.AutoSize = true;
+            label1.Location = new Point(12, 59);
+            label1.Name = "label1";
+            label1.Size = new Size(148, 23);
+            label1.TabIndex = 0;
+            label1.Text = "Loan with interest";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 48);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 23);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Liquids";
+            label2.AutoSize = true;
+            label2.Location = new Point(12, 98);
+            label2.Name = "label2";
+            label2.Size = new Size(64, 23);
+            label2.TabIndex = 1;
+            label2.Text = "Liquids";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 86);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 23);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Insurance";
+            label3.AutoSize = true;
+            label3.Location = new Point(12, 136);
+            label3.Name = "label3";
+            label3.Size = new Size(87, 23);
+            label3.TabIndex = 2;
+            label3.Text = "Insurance";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 127);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 23);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Other";
+            label4.AutoSize = true;
+            label4.Location = new Point(12, 177);
+            label4.Name = "label4";
+            label4.Size = new Size(55, 23);
+            label4.TabIndex = 3;
+            label4.Text = "Other";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 169);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 23);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Fuel";
+            label5.AutoSize = true;
+            label5.Location = new Point(12, 219);
+            label5.Name = "label5";
+            label5.Size = new Size(42, 23);
+            label5.TabIndex = 4;
+            label5.Text = "Fuel";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(374, 9);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 23);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Wash";
+            label6.AutoSize = true;
+            label6.Location = new Point(374, 59);
+            label6.Name = "label6";
+            label6.Size = new Size(53, 23);
+            label6.TabIndex = 5;
+            label6.Text = "Wash";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(374, 48);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(110, 23);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Maintenance";
+            label7.AutoSize = true;
+            label7.Location = new Point(374, 98);
+            label7.Name = "label7";
+            label7.Size = new Size(110, 23);
+            label7.TabIndex = 6;
+            label7.Text = "Maintenance";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(374, 86);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(47, 23);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Tires";
+            label8.AutoSize = true;
+            label8.Location = new Point(374, 136);
+            label8.Name = "label8";
+            label8.Size = new Size(47, 23);
+            label8.TabIndex = 7;
+            label8.Text = "Tires";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(374, 127);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(84, 23);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "Km / year";
+            label9.AutoSize = true;
+            label9.Location = new Point(374, 177);
+            label9.Name = "label9";
+            label9.Size = new Size(84, 23);
+            label9.TabIndex = 8;
+            label9.Text = "Km / year";
             // 
             // ResultLB
             // 
-            this.ResultLB.AutoSize = true;
-            this.ResultLB.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ResultLB.ForeColor = System.Drawing.Color.Red;
-            this.ResultLB.Location = new System.Drawing.Point(12, 207);
-            this.ResultLB.Name = "ResultLB";
-            this.ResultLB.Size = new System.Drawing.Size(104, 23);
-            this.ResultLB.TabIndex = 9;
-            this.ResultLB.Text = "Cost per km";
-            this.ResultLB.Visible = false;
+            ResultLB.AutoSize = true;
+            ResultLB.Font = new Font("Calibri", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            ResultLB.ForeColor = Color.Red;
+            ResultLB.Location = new Point(12, 257);
+            ResultLB.Name = "ResultLB";
+            ResultLB.Size = new Size(104, 23);
+            ResultLB.TabIndex = 9;
+            ResultLB.Text = "Cost per km";
+            ResultLB.Visible = false;
             // 
             // LoanTB
             // 
-            this.LoanTB.Location = new System.Drawing.Point(182, 6);
-            this.LoanTB.Name = "LoanTB";
-            this.LoanTB.Size = new System.Drawing.Size(135, 31);
-            this.LoanTB.TabIndex = 10;
+            LoanTB.Location = new Point(182, 56);
+            LoanTB.Name = "LoanTB";
+            LoanTB.Size = new Size(135, 31);
+            LoanTB.TabIndex = 10;
             // 
             // LiquidTB
             // 
-            this.LiquidTB.Location = new System.Drawing.Point(182, 45);
-            this.LiquidTB.Name = "LiquidTB";
-            this.LiquidTB.Size = new System.Drawing.Size(135, 31);
-            this.LiquidTB.TabIndex = 11;
+            LiquidTB.Location = new Point(182, 95);
+            LiquidTB.Name = "LiquidTB";
+            LiquidTB.Size = new Size(135, 31);
+            LiquidTB.TabIndex = 11;
             // 
             // InsuranceTB
             // 
-            this.InsuranceTB.Location = new System.Drawing.Point(182, 83);
-            this.InsuranceTB.Name = "InsuranceTB";
-            this.InsuranceTB.Size = new System.Drawing.Size(135, 31);
-            this.InsuranceTB.TabIndex = 12;
+            InsuranceTB.Location = new Point(182, 133);
+            InsuranceTB.Name = "InsuranceTB";
+            InsuranceTB.Size = new Size(135, 31);
+            InsuranceTB.TabIndex = 12;
             // 
             // OtherTB
             // 
-            this.OtherTB.Location = new System.Drawing.Point(182, 124);
-            this.OtherTB.Name = "OtherTB";
-            this.OtherTB.Size = new System.Drawing.Size(135, 31);
-            this.OtherTB.TabIndex = 13;
+            OtherTB.Location = new Point(182, 174);
+            OtherTB.Name = "OtherTB";
+            OtherTB.Size = new Size(135, 31);
+            OtherTB.TabIndex = 13;
             // 
             // FuelTB
             // 
-            this.FuelTB.Location = new System.Drawing.Point(182, 166);
-            this.FuelTB.Name = "FuelTB";
-            this.FuelTB.Size = new System.Drawing.Size(135, 31);
-            this.FuelTB.TabIndex = 14;
+            FuelTB.Location = new Point(182, 216);
+            FuelTB.Name = "FuelTB";
+            FuelTB.Size = new Size(135, 31);
+            FuelTB.TabIndex = 14;
             // 
             // WashTB
             // 
-            this.WashTB.Location = new System.Drawing.Point(513, 6);
-            this.WashTB.Name = "WashTB";
-            this.WashTB.Size = new System.Drawing.Size(135, 31);
-            this.WashTB.TabIndex = 15;
+            WashTB.Location = new Point(513, 56);
+            WashTB.Name = "WashTB";
+            WashTB.Size = new Size(135, 31);
+            WashTB.TabIndex = 15;
             // 
             // MaintenanceTB
             // 
-            this.MaintenanceTB.Location = new System.Drawing.Point(513, 45);
-            this.MaintenanceTB.Name = "MaintenanceTB";
-            this.MaintenanceTB.Size = new System.Drawing.Size(135, 31);
-            this.MaintenanceTB.TabIndex = 16;
+            MaintenanceTB.Location = new Point(513, 95);
+            MaintenanceTB.Name = "MaintenanceTB";
+            MaintenanceTB.Size = new Size(135, 31);
+            MaintenanceTB.TabIndex = 16;
             // 
             // TiresTB
             // 
-            this.TiresTB.Location = new System.Drawing.Point(513, 83);
-            this.TiresTB.Name = "TiresTB";
-            this.TiresTB.Size = new System.Drawing.Size(135, 31);
-            this.TiresTB.TabIndex = 17;
+            TiresTB.Location = new Point(513, 133);
+            TiresTB.Name = "TiresTB";
+            TiresTB.Size = new Size(135, 31);
+            TiresTB.TabIndex = 17;
             // 
             // KmCB
             // 
-            this.KmCB.FormattingEnabled = true;
-            this.KmCB.Items.AddRange(new object[] {
-            "1000",
-            "5000",
-            "10000",
-            "30000",
-            "50000",
-            "100000"});
-            this.KmCB.Location = new System.Drawing.Point(513, 124);
-            this.KmCB.Name = "KmCB";
-            this.KmCB.Size = new System.Drawing.Size(135, 31);
-            this.KmCB.TabIndex = 18;
-            this.KmCB.Text = "Select";
-            this.KmCB.SelectedIndexChanged += new System.EventHandler(this.KmCB_SelectedIndexChanged);
+            KmCB.FormattingEnabled = true;
+            KmCB.Items.AddRange(new object[] { "1000", "5000", "10000", "30000", "50000", "100000" });
+            KmCB.Location = new Point(513, 174);
+            KmCB.Name = "KmCB";
+            KmCB.Size = new Size(135, 31);
+            KmCB.TabIndex = 18;
+            KmCB.Text = "Select";
+            KmCB.SelectedIndexChanged += KmCB_SelectedIndexChanged;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.ForeColor = Color.Blue;
+            label10.Location = new Point(12, 9);
+            label10.Name = "label10";
+            label10.Size = new Size(336, 25);
+            label10.TabIndex = 19;
+            label10.Text = "Fill all the fields then select Km / year";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(667, 239);
-            this.Controls.Add(this.KmCB);
-            this.Controls.Add(this.TiresTB);
-            this.Controls.Add(this.MaintenanceTB);
-            this.Controls.Add(this.WashTB);
-            this.Controls.Add(this.FuelTB);
-            this.Controls.Add(this.OtherTB);
-            this.Controls.Add(this.InsuranceTB);
-            this.Controls.Add(this.LiquidTB);
-            this.Controls.Add(this.LoanTB);
-            this.Controls.Add(this.ResultLB);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
-            this.Text = "Harjoitus 7";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(10F, 23F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(667, 293);
+            Controls.Add(label10);
+            Controls.Add(KmCB);
+            Controls.Add(TiresTB);
+            Controls.Add(MaintenanceTB);
+            Controls.Add(WashTB);
+            Controls.Add(FuelTB);
+            Controls.Add(OtherTB);
+            Controls.Add(InsuranceTB);
+            Controls.Add(LiquidTB);
+            Controls.Add(LoanTB);
+            Controls.Add(ResultLB);
+            Controls.Add(label9);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Font = new Font("Calibri", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            Margin = new Padding(4, 5, 4, 5);
+            Name = "Form1";
+            Text = "Harjoitus 7";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -269,5 +275,6 @@
         private TextBox MaintenanceTB;
         private TextBox TiresTB;
         private ComboBox KmCB;
+        private Label label10;
     }
 }

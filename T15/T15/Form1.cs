@@ -41,7 +41,7 @@ namespace T15
 
         private void MsTM_Tick(object sender, EventArgs e)
         {
-            tLB.Text = String.Format("{0:hh\\:mm\\:ss\\:fff}", stopwatch.Elapsed);
+            tLB.Text = String.Format("{0:hh\\:mm\\:ss\\:ff}", stopwatch.Elapsed);
         }
     }
 }
